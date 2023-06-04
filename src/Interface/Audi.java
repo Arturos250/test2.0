@@ -1,7 +1,9 @@
 package Interface;
 
 public class Audi implements Car {
-    public void drive(){
+    @Override
+    public void drive() {
+        System.out.println("Speed = 200 km/h");
 
     }
 }
